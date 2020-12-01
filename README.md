@@ -12,9 +12,8 @@ Integramos desde inicio de sesion de forma local, como tambien con cuentas de Go
 
 <div align="center">
            <img src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client5.png/>
-           <img width="45%" src="screen-shots/about.PNG" alt="About screen" title="About screen"</img>
-           <img height="0" width="8px">
-           <img width="45%" src="screen-shots/list.PNG" alt="List screen" title="List screen"></img>
+           <img height="5px" width="8px">
+           
 </div>
 ### Tecnologías usadas
 

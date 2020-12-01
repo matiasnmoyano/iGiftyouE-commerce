@@ -9,8 +9,13 @@ E-commerce realizado en grupo compuesto por 6 personas donde integramos todo lo 
 La idea general del proyecto se basa en ingresar a la pagina con el objetivo de buscar algún producto para regalar a una persona especial. Con esta idea se incluye un apartado en donde le hacemos un cuestionario al usuario. A partir de las respuestas aparecerán 3 productos que van a ser ideales para que regales.
 Integramos desde inicio de sesion de forma local, como tambien con cuentas de Google o GitHub. Tambien tenemos la parte de admin, con una UX bastante amigable y distintas formas de agregar productos, categorias, etc.
 ### Imagenes
-<img src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client5.png/>
 
+<div align="center">
+           <img src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client5.png/>
+           <img width="45%" src="screen-shots/about.PNG" alt="About screen" title="About screen"</img>
+           <img height="0" width="8px">
+           <img width="45%" src="screen-shots/list.PNG" alt="List screen" title="List screen"></img>
+</div>
 ### Tecnologías usadas
 
 - Front End:
@@ -30,3 +35,5 @@ Integramos desde inicio de sesion de forma local, como tambien con cuentas de Go
     
 - Database: 
     + PostgreSQL
+
+

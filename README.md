@@ -10,8 +10,12 @@ La idea general del proyecto se basa en ingresar a la pagina con el objetivo de 
 Integramos desde inicio de sesion de forma local, como tambien con cuentas de Google o GitHub. Tambien tenemos la parte de admin, con una UX bastante amigable y distintas formas de agregar productos, categorias, etc.
 ### Imagenes
 
-<div align="center">
+<div display="flex">
            <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client5.png/>
+           <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client4.png/>
+           <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client3.png/>
+           <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client2.png/>
+           <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client1.png/>
          
            
 </div>

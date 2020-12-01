@@ -11,8 +11,8 @@ Integramos desde inicio de sesion de forma local, como tambien con cuentas de Go
 ### Imagenes
 
 <div align="center">
-           <img src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client5.png/>
-           <img height="5px" width="8px">
+           <img height="50px" width="80px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client5.png/>
+         
            
 </div>
 ### Tecnologías usadas

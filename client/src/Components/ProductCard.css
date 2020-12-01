@@ -1,0 +1,359 @@
+/* HACER REFACTORING */
+
+.btnEditDelete {
+  background-color: rgba(227, 215, 207, 0.88);
+  border: none;
+}
+.btnEditDelete:focus {
+  outline: none;
+}
+
+#id {
+  padding-left: 0;
+}
+.form-flex {
+  justify-content: space-around;
+}
+.iconsCard {
+  z-index: 2;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.Card__Container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+  transition: 0.4s;
+  transform-origin: center;
+  animation-duration: 1s;
+  animation-name: slidein;
+  
+}
+.Card,
+.Card__Out {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  /* background: linear-gradient(
+    90deg,
+    rgba(155, 21, 26, 1) 0%,
+    rgba(151, 121, 94, 1) 35%,
+    rgba(247, 231, 219, 1) 100%
+  ); */
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(227, 215, 207, 0.88);
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 10px;
+  box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.3);
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+@keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0, 8;
+  }
+  60% {
+    opacity: 1;
+  }
+}
+
+.Card__Container:hover {
+  transform: scale(1.05);
+}
+.Card__Container:hover .Icon_Shopping_Animate {
+  animation: rotation 1s infinite linear alternate;
+}
+.Card:hover {
+  box-shadow: 5px 20px 30px rgba(0, 0, 0.2, 0.4);
+}
+.Button_AgregarProducto {
+  padding-top: 10px;
+}
+
+/* .Card::before {
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 139, 30, 1) 50%,
+    rgba(241, 193, 149, 1) 50%
+  );
+  transform: skewY(345deg);
+  transition: 0.5s;
+} */
+
+/* .Card:hover::before {
+  top: -40%;
+  transform: skewY(390deg);
+}  */
+
+.Card::after,
+.Card__Out::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 8em;
+  background: radial-gradient(
+    circle,
+    rgba(255, 139, 30, 1) 50%,
+    rgba(241, 193, 149, 1) 50%
+  );
+}
+
+.Card__Img {
+  position: relative;
+  height: 100%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+/* .Card:hover .Card__Img {
+  transform: perspective(700px) translateZ(200px);
+} */
+.Card__Button .Card .Card__Content {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  font-family: "Poppins", sans serif !important;
+}
+
+.Card .Card__Content .Card__Price {
+  justify-content: center;
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans serif;
+}
+
+.Card__Button {
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.Card__Button1 {
+  justify-content: end;
+  border: none;
+  text-decoration: none;
+}
+
+.Card .Card__Content .Card__Button {
+  padding: 8px 50px;
+  font-size: 18px;
+  font-weight: 500;
+  background: #f49945;
+  border-radius: 5px;
+  justify-content: end;
+  border: none;
+  background: #f49945;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  transition: 0.5s;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.Card .Card__Content .Card__Button:hover {
+  background-color: #e38f40;
+  text-decoration: none;
+  outline: none;
+}
+
+.Card .Card__Content .button {
+  bottom: none;
+}
+.Card__More__Shopping {
+  display: flex;
+  width: 100%;
+}
+.Card__Button__Shopping {
+  background-color: #cc8039;
+  border: none;
+  width: 20%;
+  border-radius: 5px;
+}
+.Card__Button__Shopping:focus {
+  outline: none;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- De acá para abajo OutOfStock CSS*/
+
+.Card__Out {
+  background-color: rgba(141, 137, 135, 0.88);
+  box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0, 8;
+  }
+  60% {
+    opacity: 1;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(20deg);
+  }
+  30% {
+    transform: rotate(20deg);
+  }
+  /*  40% {
+    transform: rotate(15deg);
+  } */
+  50% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-20deg);
+  }
+  /*   80% {
+    transform: rotate(-15deg);
+  } */
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+.Card__Out__Img {
+  position: relative;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  height: 100%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+.Card__Out__Img p {
+  opacity: 1;
+  font-size: 4em;
+  font-weight: 900;
+  position: absolute;
+  color: black;
+  bottom: 3rem;
+  left: 2rem;
+  transform: rotate(-45deg);
+}
+
+/* .Card:hover .Card__Img {
+  transform: perspective(700px) translateZ(200px);
+} */
+.Card__Button__Out .Card__Content {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.Card__Content h6 {
+  padding-top: 28px;
+  font-size: 18px;
+  color: black;
+  width: 230px;
+  white-space: nowrap;
+  font-family: "Poppins", sans serif !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 25px;
+}
+
+.Card__Content .Card__Price {
+  justify-content: center;
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.Card__Button__Out {
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 0px;
+  background: #dfdcd7;
+}
+
+.Card__Button1 {
+  justify-content: end;
+  border: none;
+  text-decoration: none;
+}
+
+.Card__Out .Card__Content .Card__Button__Out {
+  padding: 8px 50px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 0px;
+  justify-content: end;
+  border: none;
+  background: #949391;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  transition: 0.5s;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.Card__Content .Card__Button__Out:hover {
+  background: #949391;
+  text-decoration: none;
+  outline: none;
+}
+
+.Card__Button__Out:hover span {
+  display: inline-block;
+  animation: rotation 2s infinite linear alternate;
+}
+
+.Card__Content .button {
+  bottom: none;
+}

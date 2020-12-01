@@ -1,0 +1,55 @@
+.Container__Question__ProductCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.4s;
+  transform-origin: center;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+.Title__Question__Products {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: white;
+  transition: 0.4s;
+  transform-origin: center;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0, 8;
+  }
+  60% {
+    opacity: 1;
+  }
+}
+.Product__Card__Question__Flex {
+  display: flex;
+  align-self: center;
+  margin-left: 23px;
+}
+.Question__Heart {
+  width: 50px;
+  padding: 0px;
+  position: absolute;
+  z-index: 5;
+  transition: 0.4s;
+  transform-origin: center;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+/* .Question__Heart:hover {
+  transform: scale(1.05);
+} */
+.Product__Card__Question__Flex:hover > .Question__Heart {
+  transform: scale(1.05);
+  margin-left: -40px;
+}

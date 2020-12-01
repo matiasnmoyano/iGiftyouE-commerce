@@ -1,0 +1,25 @@
+.style-card-shop {
+  background: rgba(238, 238, 238, 0.582) !important;
+}
+.font-title {
+  font-family: "Poppins", sans-serif;
+}
+.Link__Card__Shop {
+  text-decoration: none;
+  color: black;
+}
+.Card__Shop__Body {
+  display: flex;
+  flex-direction: column;
+}
+.Link__Card__Shop:hover {
+  color: black !important;
+}
+.Button__Container__Shop {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-text-2{
+  padding-top: 20px;
+}

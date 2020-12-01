@@ -1,0 +1,116 @@
+.Product_Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+
+  background: rgb(227, 215, 207);
+  background: linear-gradient(
+    0deg,
+    rgba(227, 215, 207, 0.3841911764705882) 24%,
+    rgba(227, 215, 207, 1) 100%,
+    rgba(227, 215, 207, 1) 100%
+  );
+}
+
+.Container__Description__Product {
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.Product_Name {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+.Product_Name h4 {
+  font-size: 45px;
+}
+.Description__Product {
+  font-family: "Poppins", sans-serif;
+  max-width: 500px;
+  text-align: left;
+}
+.Product_Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: auto;
+}
+
+.imagen_product {
+  margin-right: 50px;
+  padding-top: 30px;
+  max-height: 400px;
+  max-width: 400px;
+}
+.Flex__Reviews__Product {
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column;
+}
+.review_container{
+  display: flex;
+}
+
+.review_center{
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column;
+}
+
+img {
+  padding: 10px;
+}
+
+.textProduct {
+  width: 30%;
+  padding-left: 20px !important;
+}
+
+hr {
+  border: none;
+  height: 20px;
+  width: 90%;
+  height: 50px;
+  margin-top: 0;
+  border-bottom: 1px solid #1f1209;
+  box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px;
+}
+p {
+  color: #454545;
+}
+.button_vermas_container {
+  padding-top: 0px !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.button_vermas {
+  padding-top: 0px !important;
+  padding-bottom: 80px;
+  width: 600px;
+  margin-left: 7px;
+}
+
+.reviews {
+  padding-top: 70px;
+}
+
+@media (max-width: 1000px) {
+  .Product_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .Product_Image {
+    width: 100% !important;
+    padding: 0;
+  }
+}

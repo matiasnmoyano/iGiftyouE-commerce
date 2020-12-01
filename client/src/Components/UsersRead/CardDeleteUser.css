@@ -1,0 +1,15 @@
+.Card__Delete__User {
+  background-color: rgba(227, 215, 207, 0.88) !important;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+.Card__Flex__Delete__User {
+  display: flex;
+  align-items: flex-end;
+}
+.rol{
+margin: auto;
+}
+.nombreCardInfo{
+  width: 100px;
+}

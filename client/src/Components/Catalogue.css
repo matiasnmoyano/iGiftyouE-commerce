@@ -1,0 +1,141 @@
+.global {
+  display: flex;
+  min-height : 80vh;
+}
+
+.category-list {
+  justify-content: center;
+  margin-left: 3%;
+  min-width: min-content;
+}
+
+.search div{
+justify-content: center;
+margin-left: 5%;
+}
+
+.search {
+  display: flex;
+  margin-right: 5mm;
+  padding: 25px 0px 30px 0px;
+  border-radius: 5px;
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+.search button{
+  border-radius: 5px;
+}
+
+.search button:hover{
+  transition: 200ms;
+  background-color: rgba(238, 238, 238, 0.253);
+}
+
+.vertical-menu {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  text-transform: capitalize;
+  padding-right: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+.category_item {
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(238, 238, 238, 0.582);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  margin: 8px 2px;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: pre-line;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.todos{
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0,5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.category_item:focus {
+  transition: 100ms;
+  outline: none;
+  background-color: rgba(238, 179, 103, 0.794);
+}
+
+.category_item:hover {
+  transition: 600ms;
+  background-color: rgba(238, 179, 103, 0.794);
+  box-shadow: 2px 2px 3px #999;
+}
+
+.button-plus{
+  border: none;
+  margin: 8px 2px;
+  font-size: 25px;
+  border-radius: 50px;
+  background-color: rgba(238, 238, 238, 0.15);
+  box-shadow: 2px 2px 3px rgba(153, 153, 153, 0.692);
+  animation-duration: 15s;
+  animation-name: slidein;
+}
+
+.button-plus:hover{
+  outline: none;
+  box-shadow: 2px 2px 3px rgba(121, 121, 121, 0.856);
+}
+
+.button-plus:focus {
+  outline: none;
+}
+
+
+/*product*/
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 5%;
+}
+
+.filter-products-container {
+  display: flex;
+  flex-direction: column;
+}
+.btn-search:hover {
+  background-color: rgba(246, 164, 56, 0.726);
+}
+
+.NoProduct {
+  padding: 30px;
+}
+
+/* .form-filter{
+  display: flex; 
+  align-self: center;
+  height: 2.5rem;
+  box-shadow: 1px 2px 3px #999;
+  border-radius: 9999px;
+  width: fit-content;
+  padding-left: 1rem;
+  margin-left: 3rem;
+} */

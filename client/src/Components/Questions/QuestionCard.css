@@ -1,0 +1,87 @@
+.contenedor__Question {
+  height: 80vh;
+  width: 340px;
+  margin: auto;
+  -webkit-perspective: 650;
+}
+.Question__Number {
+  font-family: "Robotto", sans-serif;
+  color: white;
+  margin-top: 40px;
+}
+.nohover {
+  pointer-events: none;
+  cursor: none;
+}
+.carta {
+  height: 75%;
+  width: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 1200ms;
+}
+.Question__Card__Image {
+  width: 360px;
+  opacity: 0.9;
+}
+.carta:hover {
+  transform: rotateY(180deg);
+}
+
+.lado {
+  display: flex;
+  border-radius: 1cm;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  /* border: rgb(46, 46, 46) 2px solid; */
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  /* background-image: url(../../Img/questioncard.png); */
+}
+
+.atras {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.frente {
+  cursor: none;
+  z-index: 0;
+}
+.pregunta {
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
+  white-space: pre-wrap;
+
+  padding: 20px;
+  margin-top: 50px;
+}
+.respuesta {
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
+  width: 110px;
+
+  margin-top: 40px;
+}
+.respuesta:hover {
+  transform: scale(1.2);
+}
+.atras button {
+  padding: 30px;
+  margin: 30px;
+  border-style: none;
+  background-color: transparent;
+  border-radius: 35%;
+}
+
+.atras button:hover {
+  transition: 1000ms;
+  color: rgb(255, 204, 63);
+}
+
+.atras button:focus {
+  outline: none;
+}

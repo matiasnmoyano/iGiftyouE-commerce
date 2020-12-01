@@ -1,0 +1,20 @@
+input[type="radio"] {
+  display: none;
+}
+.Star__Gift {
+  cursor: pointer;
+  transition: color 200ms;
+}
+.Icon__Color :not(:hover) {
+  color: red;
+}
+.Flex__Rating {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.Heart__Rating {
+  position: absolute;
+  right: 3px;
+  bottom: 0;
+}

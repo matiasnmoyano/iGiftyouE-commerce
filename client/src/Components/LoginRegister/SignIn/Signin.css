@@ -1,0 +1,81 @@
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+.card-style {
+  background: rgba(238, 238, 238, 0.582) !important;
+  width: 650px;
+  height: 750px;
+}
+.form-signin {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  font-family: "Poppins", sans-serif;
+}
+.card-body-style {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.input-signin {
+  margin-top: 60px;
+}
+.icon-signin {
+  font-size: 48px;
+  margin-top: 30px;
+}
+.icon-signin:hover {
+  transition: 500ms;
+  color: rgba(255, 70, 70, 0.904);
+  /*   width: 10mm;
+  height: 8mm; */
+}
+.icon-signin:not(:hover) {
+  transition: 900ms;
+}
+.button-signin {
+  display: flex !important;
+  justify-content: space-evenly;
+  margin-bottom: 8%;
+}
+.button-home:hover {
+  transition: 600ms;
+  background-color: rgba(238, 179, 103, 0.794) !important;
+}
+.button-home:not(:hover) {
+  transition: 400ms;
+}
+
+/* .olvide{
+	padding-bottom: 20px;
+} */
+.black {
+  color: rgb(56, 56, 56);
+  font-family: "Poppins", sans-serif;
+}
+
+.iconGift {
+  animation-name: giftMove;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes giftMove {
+  0% {
+    transform: translate(0, 0);
+  }
+  33% {
+    transform: translate(0px, -35px);
+  }
+  66% {
+    transform: translate(135px, -35px);
+  }
+  100% {
+    transform: translate(135px, 0px);
+    color: rgba(255, 70, 70, 0.904);
+  }
+}

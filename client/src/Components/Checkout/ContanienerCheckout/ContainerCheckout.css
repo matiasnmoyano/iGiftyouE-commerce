@@ -1,0 +1,25 @@
+.Container-General-Checkout {
+	min-height: 100vh;
+}
+.Products-Checkout {
+	width: 100%;
+	max-height: 170px;
+}
+/* Estilos del scroll */
+.scroll-style {
+	height: 480px;
+	overflow-y: scroll;
+}
+.scroll-style::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+.scroll-style::-webkit-scrollbar:vertical {
+	width: 5px;
+}
+.scroll-style::-webkit-scrollbar-thumb {
+	background-color: #797979;
+	border-radius: 20px;
+}
+.ButtonRegisterCheckout {
+	width: 100%;
+}

@@ -1,0 +1,20 @@
+.Container__Mis__Compras {
+  /*   display: flex;
+  align-items: center;
+  justify-content: center; */
+
+  /*   height: 100vh; */
+  font-family: "Poppins", sans serif;
+}
+.Container__Title__MisCompras {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.icon-signin__miPerfil {
+  font-size: 48px;
+}
+
+.card_info {
+  display: flex;
+  justify-content: flex-start;
+}

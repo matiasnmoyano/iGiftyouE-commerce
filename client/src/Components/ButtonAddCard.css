@@ -1,0 +1,73 @@
+.container_button {
+  display: flex;
+  box-shadow: 1px 2px 3px #999;
+  border-radius: 9999px;
+  width: fit-content;
+  margin: 0;
+  
+}
+
+.inp {
+  width: 2rem;
+  border: none;
+  text-align: center;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+.inp:focus {
+  outline: none;
+}
+.arrowsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: white;
+  box-shadow: 1px 2px 3px #999;
+}
+.arrowContainer {
+  height: 50%;
+}
+
+.arrows {
+  display: flex;
+  border: none;
+  background-color: white;
+}
+.arrows:focus {
+  outline: none;
+}
+.arrows:hover {
+  background-color: #ebebeb;
+}
+.buttonSubmit:focus {
+  outline: none;
+}
+.buttonSubmit {
+  border: none;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  background-color: #f49945;
+  color: black;
+}
+.buttonSubmit:hover {
+  background-color: #e38f40;
+}
+
+.buttonOutOfStock {
+  border: none;
+  border-radius: 9999px;
+  border-radius: 9999px;
+  
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: #424140;
+  color: rgb(255, 255, 255);
+}
+
+.buttonSubmit, .arrows{
+  box-sizing: border-box;
+  padding: 5px 10px;
+}

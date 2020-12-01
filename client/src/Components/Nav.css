@@ -1,0 +1,65 @@
+.pos {
+  position: sticky;
+  top: 0px;
+  z-index: 50;
+  border-style: none;
+  font-family: "Poppins", sans serif;
+}
+
+.navbar-brand {
+  padding-left: 8px;
+}
+
+.navbar-brand :hover {
+  transition: 500ms;
+  color: rgba(255, 70, 70, 0.904);
+  width: 10mm;
+  height: 8mm;
+}
+
+.navbar-brand :not(:hover) {
+  transition: 900ms;
+  color: rgba(215, 65, 75, 0.904);
+}
+
+.nav-item {
+  font-weight: 500;
+}
+
+.nav-icon {
+  padding-left: 25px;
+  padding-right: 30px;
+}
+
+.logo{
+  font-family: "Poppins", sans serif;
+}
+
+.listPadding {
+  padding-left: 20%;
+}
+
+.searchPadding {
+  padding-left: 20%;
+}
+
+.navPadding {
+  padding-left: 26px !important;
+}
+a {
+  text-decoration: none !important;
+}
+.nav-item span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+
+@media (max-width: 992px) {
+  .listPadding {
+    padding-left: 0;
+  }
+  .searchPadding {
+    padding-left: 0;
+  }
+}

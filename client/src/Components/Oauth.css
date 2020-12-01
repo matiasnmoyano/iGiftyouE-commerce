@@ -1,0 +1,142 @@
+/* header {
+    background: url(../Img/wood-surprise-copyspace-wooden-box.jpg) no-repeat center !important; 
+    background-size: cover !important; 
+    min-height: 100vh !important;
+    
+  } */
+.container-home {
+  width: 100%;
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+}
+.flex-text {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  padding-left: 16px !important;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+  animation: title 1s linear ;
+}
+
+
+@keyframes title {
+  0% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.subtitle {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  animation: title 1s linear ;
+}
+.flex-buttons-home {
+  justify-content: start !important;
+  align-items: flex-start;
+  padding-top: 3px !important;
+  animation: title 1s linear ;
+}
+
+.gift_home img {
+  bottom: 0;
+  width: 55px;
+  animation: gift 5s linear infinite;
+}
+
+.gift_home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@keyframes gift {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+
+.gift_home img:nth-child(1) {
+  animation-delay: 1s;
+}
+
+.gift_home img:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.gift_home img:nth-child(3) {
+  animation-delay: 3s;
+}
+
+.gift_home img:nth-child(4) {
+  animation-delay: 4s;
+}
+
+.gift_home img:nth-child(5) {
+  animation-delay: 5s;
+}
+
+.gift_home img:nth-child(6) {
+  animation-delay: 6s;
+}
+
+.gift_home img:nth-child(7) {
+  animation-delay: 7s;
+}
+
+.gift_home img:nth-child(8) {
+  animation-delay: 8s;
+}
+.gift_home img:nth-child(9) {
+  animation-delay: 9s;
+}
+
+@media (min-width: 400px) and (max-width: 850px) {
+  .flex-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .flex-buttons-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+}

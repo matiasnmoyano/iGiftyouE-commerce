@@ -1,0 +1,15 @@
+.CardInfoCompras__Container {
+  width: 600px;
+  height: fit-content;
+  background-color: rgba(227, 215, 207, 0.5);
+  border-radius: 5px;
+}
+
+.Text__Info__MisCompras {
+  text-align: left;
+  margin: 20px;
+}
+.Link__MisCompras {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,114 @@
+.Flex__Container__Question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Question__Card {
+  width: 600px;
+  height: fit-content;
+  /* border: 2px solid black; */
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: oblique;
+  margin-top: 30px;
+  margin-left: 10px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 999px;
+  background-color: rgba(227, 215, 207, 0.88);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: justify;
+  padding-left: 20px;
+  padding-top: 18px;
+}
+.Button__AddQuestion {
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+}
+.Button__AddQuestion:focus {
+  outline: none;
+}
+/* .Button__AddQuestion:hover {
+  background-color: rgba(238, 179, 103, 0.794);
+  border-radius: 999px;
+} */
+.Container__Questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.Button__Gift__Question {
+  background-color: transparent;
+  border: none;
+}
+.Button__Gift__Question:focus {
+  outline: none;
+}
+.Button__Gift__Question:hover {
+  transform: scale(1.05);
+}
+.Button__Check {
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+}
+.Button__Check:focus {
+  outline: none;
+}
+.animation {
+  animation-duration: 2s !important;
+}
+.Button__Save__Question {
+  height: 3rem;
+  padding: 10px;
+  color: black;
+  background-color: rgba(238, 179, 103, 0.794);
+  font-family: "Robotto", sans-serif;
+  border: none;
+  width: 120px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.Button__Save__Question:hover {
+  transform: scale(1.05);
+}
+.Input__Question {
+  width: 85%;
+  border-radius: 99px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.Input__Question:focus {
+  outline: none;
+}
+.Input__Modify__Question {
+  width: 90%;
+  border-radius: 99px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.button-plus-question {
+  border: none;
+  margin: 8px 2px;
+  font-size: 25px;
+  border-radius: 50px;
+  background-color: rgba(238, 238, 238, 0.4);
+  box-shadow: 2px 2px 3px rgba(153, 153, 153, 0.692);
+  animation-duration: 15s;
+  animation-name: slidein;
+  width: 600px;
+  margin-left: 10px;
+  margin-top: 18px;
+  height: 45px;
+
+  display: flex;
+  justify-content: center;
+}

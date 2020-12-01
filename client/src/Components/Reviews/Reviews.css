@@ -1,0 +1,27 @@
+.Review__Input {
+  width: 600px;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.button_enviar{
+  display: flex;
+  width : 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.review_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 90px;
+}

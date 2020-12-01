@@ -1,0 +1,21 @@
+.Card__Shopping__Price {
+	background-color: rgba(227, 215, 207, 0.88) !important;
+	font-family: 'Poppins', sans-serif;
+}
+.Card__Footer_Price {
+	display: flex;
+	justify-content: space-around;
+}
+.button-card-price {
+	height: 3rem;
+	padding: 10px;
+	color: black !important;
+	background-color: #9a7a61 !important;
+	background: rgba(153, 122, 97, 0.7) !important;
+	border: none !important;
+	width: inherit;
+	border-radius: 5px;
+	color: #000000 !important;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+}

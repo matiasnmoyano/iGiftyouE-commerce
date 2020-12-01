@@ -1,0 +1,33 @@
+.category-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.category-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(238, 238, 238, 0.582) !important;
+    padding: 2em 4em 3em 4em;
+    border-radius: 1em;
+    margin: auto;
+}
+.category-form input {
+    margin-bottom: 1rem;
+}
+
+.category-warnings {
+    color: red;
+    background-color: rgba(238, 238, 238, 0.349) !important;
+    border-radius: 2em;
+}
+
+.existing-categories p{
+    margin-right: 1rem;
+}
+
+.form-title h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+}

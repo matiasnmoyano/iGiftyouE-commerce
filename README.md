@@ -11,13 +11,13 @@ Integramos desde inicio de sesion de forma local, como tambien con cuentas de Go
 
 ### Imagenes
 <div display="flex">
-           #### Cliente
+           <h3>Cliente</h3>
            <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client5.png/> 
            <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client4.png/>
            <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client3.png/>
            <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client2.png/>
            <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/client1.png/> 
-           #### Admin
+           <h3>Admin</h3>
            <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/admin4.png/>
            <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/admin3.png/>
            <img height="300px" width="600px" src=https://github.com/matiasnmoyano/iGiftyouE-commerce/blob/main/imgs/admin2.png/>

@@ -10,7 +10,7 @@ La idea general del proyecto se basa en ingresar a la pagina con el objetivo de 
 Integramos desde inicio de sesion de forma local, como tambien con cuentas de Google o GitHub. Tambien tenemos la parte de admin, con una UX bastante amigable y distintas formas de agregar productos, categorias, etc.
 
 ### Teaser Presentación
-https://discord.com/channels/763084001064779856/763084003707322393/783707218444288030
+https://vimeo.com/486376687
 
 ### Imagenes
 <div display="flex">
